@@ -1,0 +1,46 @@
+<!-- res/layout/custom_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APAKAH ANDA YAKIN INGIN KELUAR?"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_yes"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:text="IYA"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/button_no"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:text="TIDAK"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>
